@@ -1,6 +1,6 @@
-# v0.135.0
+# Codex 全量离线安装包 Windows x64 v0.135.0
 
-Codex Offline Windows x64 `0.135.0` 全量离线安装包。
+Codex 0.135.0 Windows x64 全量离线安装包，支持 Win10、Win11、Windows Server x64，包含一键安装器、完整离线归档、Codex CLI、Node.js、npm 离线缓存和 SHA256 校验清单。
 
 ## Release Assets
 
