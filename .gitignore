@@ -1,0 +1,27 @@
+# Release binaries are uploaded to GitHub Releases, not committed to git.
+/*.exe
+/*.msi
+/*.tar.gz
+/*.zip
+
+# Full extracted offline payload.
+/codex-offline-windows-x64-*/
+
+# Local installer payload assets that contain third-party redistributables.
+/installer-assets/vc_redist.x64.exe
+
+# Local verification / build output.
+/logs/
+/dist/
+/tmp/
+*.log
+
+# Keep repository docs and packaging templates.
+!package-scripts/
+!package-scripts/**
+!docs/
+!docs/**
+!release-manifest/
+!release-manifest/**
+!tools/
+!tools/**
