@@ -1,12 +1,16 @@
-# Codex Offline Windows x64
+# Codex 全量离线安装包 Windows x64
 
 ![Codex Offline Windows x64](docs/assets/promo-codex-offline-installer.png)
 
-一个面向 Windows x64 的 Codex 0.135.0 全量离线安装包整理项目，目标是在 Win10、Win11 和 Windows Server x64 环境里尽量减少现场下载依赖。
+Codex 0.135.0 Windows x64 全量离线安装包，支持 Win10、Win11、Windows Server x64，提供一键安装器 `setup.exe` 和完整离线归档 `full.tar.gz`。
+
+这个项目整理了 Codex CLI、Codex 桌面版负载、Node.js、npm 离线缓存、Microsoft Visual C++ 运行库、NSIS 安装脚本、PowerShell 离线安装脚本和 SHA256 校验清单，适合内网环境、无外网机器、弱网络环境、Windows Server 机房、批量部署和离线交付。
+
+关键词：Codex 全量离线安装包、Codex 离线安装、OpenAI Codex Windows、Codex Windows x64、Codex CLI 离线包、Codex 一键安装器、Win10 Codex、Win11 Codex、Windows Server Codex、Windows 离线部署、内网安装 Codex、无外网安装 Codex。
 
 > 非官方打包项目。Codex、OpenAI、Node.js、Microsoft Visual C++ Redistributable 等组件分别归其原权利方所有。公开分发二进制前，请确认你拥有对应组件的再分发权限。
 
-## 下载
+## 下载 Codex 离线安装包
 
 发布版本：`v0.135.0`
 
@@ -35,7 +39,7 @@ Get-FileHash -Algorithm SHA256 .\codex-offline-windows-x64-0.135.0-setup.exe
 Get-FileHash -Algorithm SHA256 .\codex-offline-windows-x64-0.135.0-full.tar.gz
 ```
 
-## 一键安装
+## Windows 一键安装
 
 1. 下载 `codex-offline-windows-x64-0.135.0-setup.exe`。
 2. 双击运行安装器。
@@ -53,7 +57,7 @@ codex --version
 - 命令行入口：`CODEX 命令行`
 - 当前用户 PATH：自动加入离线 CLI 路径
 
-## 手动解压安装
+## full.tar.gz 手动解压安装
 
 如果不想运行安装器，可以下载 `full.tar.gz` 手动解压：
 
@@ -84,7 +88,7 @@ cd .\codex-offline-windows-x64-0.135.0
 
 ![安装成功](docs/screenshots/installer-03-finish.png)
 
-## 包内内容
+## 全量离线包内容
 
 ![内网部署](docs/assets/promo-codex-offline-enterprise.png)
 
